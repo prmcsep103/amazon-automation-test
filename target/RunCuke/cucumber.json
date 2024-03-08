@@ -1,0 +1,248 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5621180300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "validate amazon search functionality",
+        "description": "",
+        "id": "amazon-search-functionality;validate-amazon-search-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 831590800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109175100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "AmazonSteps.iAmOnAmazonHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168816900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search \"Dell Laptop\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell Laptop",
+                  "offset": 10
+                }
+              ],
+              "location": "AmazonSteps.iSearchInTheSearchBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1709682300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on search button",
+            "match": {
+              "location": "AmazonSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6561772000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on \"4 GB\" ram radio button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4 GB",
+                  "offset": 12
+                }
+              ],
+              "location": "AmazonSteps.iClickOnRamRadioButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11167785000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select the product \"2020 Newest Dell Inspiron 15 3000 PC Laptop\" from the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020 Newest Dell Inspiron 15 3000 PC Laptop",
+                  "offset": 22
+                }
+              ],
+              "location": "AmazonSteps.iSelectTheProductFromTheList(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68106300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see price \"$189.99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$189.99",
+                  "offset": 31
+                }
+              ],
+              "location": "AmazonSteps.iShouldBeAbleToSeePrice(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2479182000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add the \"laptop\" to the basket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptop",
+                  "offset": 11
+                }
+              ],
+              "location": "AmazonSteps.iAddTheToTheBasket(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97251400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search \"monitor\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "monitor",
+                  "offset": 10
+                }
+              ],
+              "location": "AmazonSteps.iSearchInTheSearchBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1822136200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on search button",
+            "match": {
+              "location": "AmazonSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9283115600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select the product \"Sceptre 27-Inch FHD LED Gaming Monitor\" from the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sceptre 27-Inch FHD LED Gaming Monitor",
+                  "offset": 22
+                }
+              ],
+              "location": "AmazonSteps.iSelectTheProductFromTheList(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3192439300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I add the \"monitor\" to the basket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "monitor",
+                  "offset": 11
+                }
+              ],
+              "location": "AmazonSteps.iAddTheToTheBasket(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30095500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be able to see \"2 items\" added on basket successfully.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 items",
+                  "offset": 25
+                }
+              ],
+              "location": "AmazonSteps.iShouldBeAbleToSeeAddedOnBasketSuccessfully(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon search functionality",
+    "description": "\r\nAs a user I want to search product on amazon and add to the shopping basket",
+    "id": "amazon-search-functionality",
+    "keyword": "Feature",
+    "uri": "Amazon.feature"
+  }
+]
